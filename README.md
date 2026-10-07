@@ -1,21 +1,5 @@
 # Project Overview
-## Repository Structure
 
-```plain text 
-.
-├── airflow/
-│   ├── dags/
-│   ├── Dockerfile
-│   ├── docker-compose.yaml
-|   └── .env/example
-├── bookstore_analytics/
-│   ├── models/
-│   └── snapshots/
-├── snowflake/
-│   ├── setup/
-│   └── bronze/
-└── README.md
-```
 ## Bookstore Analytics Pipeline
 
 An end-to-end ELT pipeline that loads bookstore CSV data from Amazon S3 into
@@ -75,10 +59,6 @@ https://localhost:8080
 ```
 
 ## Results 
-
-### Snowflake UI (Optional)
-
-### Amazon S3 and IAM 
 
 ### Airflow 
 Tasks 
